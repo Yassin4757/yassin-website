@@ -1,0 +1,178 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  height: 80px;
+  margin-top: -20px;
+  background-color: transparent;
+  position: fixed;
+  width: 100%;
+}
+nav {
+  display: flex;
+  padding-top: 14px;
+  justify-content: space-evenly;
+  color: white;
+}
+nav h1 {
+  font-size: 30px;
+  margin-right: 500px;
+}
+nav h1 span {
+  color: blue;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+  padding-left: 35px;
+  padding-top: 14px;
+  font-size: 18px;
+}
+nav ul li a {
+  transition: 0.3s;
+  color: white;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  transition: 0.3s;
+  color: blue;
+  font-size: 20px;
+}
+nav button {
+  margin-top: 7px;
+  padding: 10px 20px;
+  border-radius: 40px;
+  border: none;
+  background-color: rgb(3, 3, 43);
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.home {
+  background-color: lightblue;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  margin-top: -22px;
+}
+.homeimg {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+.homediv {
+  color: white;
+  margin-top: -350px;
+  padding-left: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.homediv h2 {
+  font-size: 40px;
+}
+.homediv h1 {
+  font-size: 70px;
+}
+.homediv button {
+  width: 100px;
+  border: none;
+  border-radius: 40px;
+  height: 40px;
+  background-color: navy;
+  font-weight: bold;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.homediv button a {
+  text-decoration: none;
+  color: white;
+}
+.about {
+  height: 100vh;
+  background: linear-gradient(lightblue, rgb(11, 2, 59));
+  color: white;
+}
+.aboutimg {
+  display: flex;
+}
+.aboutimg img {
+  width: 250px;
+  padding-top: 70px;
+}
+.aboutdiv {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 500px;
+  margin-top: -25em;
+}
+.aboutdiv h1 {
+  font-size: 40px;
+}
+.skills {
+  height: 100vh;
+  background: linear-gradient(rgb(11, 2, 59), lightblue);
+}
+.divskills {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  color: white;
+  padding-top: 100px;
+}
+.skills h1 {
+  font-size: 40px;
+}
+.skills p {
+  font-size: 20px;
+}
+.skillsss {
+  display: flex;
+  justify-content: space-evenly;
+}
+.skillsss img {
+  width: 250px;
+  filter: brightness(0) saturate(100%) invert(99%) sepia(99%) saturate(4%)
+    hue-rotate(46deg) brightness(100%) contrast(104%);
+}
+.about button {
+  width: 100px;
+  border: none;
+  border-radius: 40px;
+  height: 40px;
+  background-color: navy;
+  font-weight: bold;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.about button a {
+  text-decoration: none;
+  color: white;
+}
+#contact {
+  height: 70vh;
+}
+#contact .contactdiv {
+  padding: 50px 200px;
+  width: 200px;
+}
+#contact .contactdiv h2 {
+  margin-left: -100px;
+}
+#contact .contactimg {
+  margin-top: 200px;
+  width: 30px;
+  margin-left: -1000px;
+}
+#contact .contacth4 {
+  margin-top: -30px;
+  margin-left: -750px;
+}
